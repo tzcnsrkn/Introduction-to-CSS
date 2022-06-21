@@ -1,37 +1,27 @@
-/* 1) Style the header with a background color */
 header {
-  background-color: rgb(178, 178, 178);
+  background-color: #7a6464c4;
 }
 
-/* 2) h1 elements should be centered and have a new font color */
 h1 {
+  text-transform: uppercase;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
-/* 3) h2 elements should have a new font color */
-h2 {
-  color: rgb(11, 11, 198);
-}
-
-/* 4) Sections should have a new background color */
-section {
-  background-color: rgb(234, 234, 155);
-}
-
-/* 5) The links should  have a new font color and background color */
-a {
-  color: rgb(255, 0, 0);
-  background-color: rgb(255, 255, 0);
-}
-
-/* 6 ) The images should not appear on the page */
-img {
-  display: none;
-}
-
-/* Not required */
-h1,
 h2 {
   text-transform: uppercase;
+  color: #1b64d1;
+}
+
+section {
+  background-color: #03020254;
+}
+
+a {
+  background-color: #a8a2a267;
+  color: #000000;
+}
+
+img {
+  display: none;
 }
