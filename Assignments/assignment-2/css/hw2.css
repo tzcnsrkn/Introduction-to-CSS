@@ -1,0 +1,89 @@
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 0;
+  width: 960px;
+  height: 653px;
+}
+
+/*The background-color, background-image, background-position, and background-repeat properties may be rolled up into a shorthand value for the background property alone.*/
+header {
+  background: url("..\\images\\flywheel.jpg") 0 0 no-repeat;
+  height: 145px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(243, 243, 231);
+}
+
+nav a {
+  height: 15px;
+  text-decoration: none;
+  color: black;
+  padding: 15px 75px;
+  margin: 15px 15px;
+  border-radius: 5%;
+  background: rgb(228, 222, 222, 0.3);
+  color: #000000;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+
+a {
+  color: blue;
+}
+
+main {
+  box-sizing: border-box;
+  margin-right: 25px;
+  height: 500px;
+}
+
+.left {
+  margin-top: 0px;
+  display: inline-grid;
+  width: 250px;
+  height: 500px;
+  background-color: rgb(128, 128, 0);
+}
+
+aside {
+  padding-top: 25px;
+  grid-auto-rows: 120px;
+  float: left;
+}
+
+.left a {
+  margin: 0 auto;
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+}
+
+.left img {
+  margin: 0 auto;
+  display: block;
+  height: 60%;
+  width: 60%;
+  object-fit: cover;
+  border: solid black;
+}
+
+.right {
+  margin: 0 5px;
+  display: inline-block;
+  width: 650px;
+}
+
+.active {
+  background: white;
+}
